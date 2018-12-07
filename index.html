@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventn | Node.js HTTP Microservices for ETL, Analytics &amp; Data Processing</title>
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+<!--頭部開始-->
+<header  >
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--logo-->
+                <a class="navbar-brand" href="#">
+                    <img src="img/header-icon.png" class="logo" alt="">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--左边导航-->
+                <ul class="nav navbar-nav menu hidden-sm hidden-md">
+                    <li><a href="#">SERVICE RECIPES</a></li>
+
+                    <li class="has-dropdown">
+                        <a href="#" >DOCS</a>
+                        <!--子菜单-->
+                        <ul class="submenu">
+                            <li><a href="#">GETTING STARTED GUIDE</a></li>
+                            <li><a href="#">USER GUIDE</a></li>
+                            <li><a href="#">INDUSTRY WORD2VEC</a></li>
+                            <li><a href="#">REST API</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right nav-2 hidden-sm hidden-xs">
+                    <li class="visible-md visible-lg"><a href="#">SIGN UP</a></li>
+                    <li class="visible-md visible-lg">
+                        <a href="#">LOGIN </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+
+<!--頭部結束-->
+
+<!--主体开始-->
+
+<!--輪播-->
+<section class="no-padd">
+<div id="main" class="carousel slide" data-ride="carousel" style="display: none">
+    <!-- Indicators -->
+
+    <!--控制點-->
+    <ol class="carousel-indicators">
+        <li data-target="#main" data-slide-to="0" class="active"></li>
+        <li data-target="#main" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <!--輪播項-->
+        <div class="item active" style="background-image: url('img/background-data-microservice.jpg')">
+            <!--<img src="img/background-data-microservice.jpg" alt="">-->
+            <div class="container vertical-align">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1 class="text-white">
+                            Node.js HTTP Microservices
+                            <p>
+                                Build, deploy and scale RESTful services for NLP, SQL Analytics & Data Processing
+                            </p>
+                            <a href="#" class="btn btn-white">LEARN MORE</a>
+                            <a href="#" class="btn btn-filed">GET STARTED</a>
+                        </h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('img/background-industry-word2vec.jpeg')">
+        <!--<img src="..." alt="...">-->
+            <div class="container vertical-align">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="text-white">
+                            Industry Word2Vec
+                            <p style="margin-top: 16px">
+                                Industry Text Summarization from a single API.
+                            </p>
+                            <a href="#" class="btn btn-white">READ MORE</a>
+                        </h1>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+ </div>
+</section>
+
+<!--輪播結束-->
+
+<!--介紹開始-->
+<section class="larg-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                <p class="lead">
+                    Event<sup>n</sup> is a serverless platform for HTTP workloads. Instantly deploy database backed
+                    RESTful services for Webhooks, Natural Language Processing, SQL Analytics & Data
+                    Processing.
+                </p>
+                <p>
+                    Check out the example&nbsp;
+                    <a>Service Recipes</a>,&nbsp;
+                    <a>Getting Started Videos</a>&nbsp;
+                    or&nbsp;
+                    <a>Signup</a>&nbsp;
+                    in less than 30 seconds for a free account to get started .
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--介紹結束-->
+
+
+<!--鼠標界面-->
+<section class="larg-pad list-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="list text-center">
+                    <i class="icon icon-size">&#xe6a6;</i>
+                    <h5>1-Click Microservice</h5>
+                    <p>
+                        Deploy a secure, public facing HTTP microservice with database persistence
+                        with a single click.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="list text-center">
+                    <i class="icon icon-size">&#xe511;</i>
+                    <h5>Serverless With A Free Monthly Allocation</h5>
+                    <p>
+                        No server or container provisioning or management,
+                        pay only for what you use. Enjoy a free monthly
+                        allocation of compute time.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="list text-center">
+                    <i class="icon icon-size">&#xe63d;</i>
+                    <h5>Capture Real-time Event Datae</h5>
+                    <p>
+                        Capture real-time event data from any source utilizing
+                        JSON over HTTP. Embed ETL logic directly into a
+                        microservice making integrations a breeze.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--鼠標結束-->
+
+<!--手機界面-->
+<section class="img-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-7">
+                <div class="text-block">
+                    <h2>Microservices for Data Collection and ETL</h2>
+                    <p>
+                        Launch microservices for real-time data collection
+                        at scale. Preform powerful data extractions and
+                        transformations on both structured and
+                        unstructured data, without the need for complex
+                        data pipelines.
+                    </p>
+                    <a href="#" class="btn">Find Out How</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="img-holder col-md-6 col-sm-4 pull-right">
+        <div class="background-img fadeIn" style="background: url('img/data-warehouse-etl.jpg') 50% 50%">
+            <img src="img/data-warehouse-etl.jpg" alt="" style="display: none">
+        </div>
+    </div>
+
+</section>
+
+<!--手機結束-->
+
+<!--平板界面-->
+<section class="img-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
+                <div class="text-block text-margin">
+                    <h2>From API to BI In Minutes</h2>
+                    <p>
+                        Take real-time API data via webhooks and integrate to SQL
+                        in minutes. Rapidly respond to changing Business Intelligence
+                        needs across the Enterprise and visualize using Tableau
+                        and Microsoft Power BI.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="img-holder col-md-6 col-sm-4 pull-left">
+        <div class="img-slider">
+            <ul class="side">
+                <li class="active-side">
+                    <div class="background-img fadeIn" style="background: url('img/data-warehouse-analytics.jpg') 50% 50%">
+                    </div>
+                </li>
+            </ul>
+            <ol class="flex-nav"></ol>
+        </div>
+    </div>
+
+
+</section>
+<!--平板結束-->
+
+<!--手錶界面-->
+<section class="img-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-7">
+                <div class="text-block text-margin">
+                    <h2>Internet Of Things (IOT)</h2>
+                    <p>
+                        Deploy microservices for IOT applications.
+                        Utilize serverless compute power
+                        across multiple geographies for seamless and
+                        secure interoperability.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="img-holder col-md-6 col-sm-4 pull-right">
+        <div class="background-img fadeIn" style="background: url('img/internet-of-things-iot.jpg') 50% 50%">
+            <img src="img/data-warehouse-etl.jpg" alt="" style="display: none">
+        </div>
+    </div>
+
+</section>
+<!--手錶結束-->
+
+<!--node界面-->
+<section class="img-pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
+                <div class="text-block text-margin">
+                    <h2>JavaScript (ES6) Service Logic</h2>
+                    <p>
+                        Event<sup>n</sup> microservices execute in a secure and scalable
+                        sandboxed Node.js environment. This provides freedom to not
+                        only use all JavaScript features, but also
+                        <a>ECMAScript 2015 (ES6)</a>
+                        features available in Node.js (v9.x) such as async/await.
+                        Additionally, Event<sup>n</sup> also supports a set of selected NPM
+                        modules.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="img-holder col-md-6 col-sm-4 pull-left">
+        <div class="img-slider">
+            <ul class="side">
+                <li class="active-side">
+                    <div class="background-img fadeIn" style="background: url('img/nodejs-logo.jpg') 50% 50%">
+                    </div>
+                </li>
+            </ul>
+            <ol class="flex-nav"></ol>
+        </div>
+    </div>
+
+
+</section>
+<!--node結束-->
+
+<!--編程界面-->
+<section class="img-pad">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-7">
+            <div class="text-block text-margin">
+                <h2>Developer Tools</h2>
+                <p>
+                    The Event<sup>n</sup> user interface provides a JavaScript
+                    service editor and test environment for rapid
+                    microservice development.
+                </p>
+                <a href="#" class="btn">Find Out How</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="img-holder col-md-6 col-sm-4 pull-right">
+    <div class="background-img fadeIn" style="background: url('img/developer-tools.jpg') 50% 50%">
+        <img src="img/data-warehouse-etl.jpg" alt="" style="display: none">
+    </div>
+</div>
+
+</section>
+<!--編程結束-->
+
+<!--板塊劃分-->
+<section class="plate">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-block">
+                    <div class="line"></div>
+                    <h5>News & Views</h5>
+                    <h4>Latest thoughts + musings from the team.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="plate1">
+                    <span class="plate-font text-uppercase">JULY 22 2018 - [BLOG]</span>
+                    <h5>Node.js V10.1.0</h5>
+                    <p>
+                        The Event<sup>n</sup> platform has been updated to
+                        support Node.js
+                    </p>
+                    <a class="text-link">
+                        Read the rest
+                        <i class="arrow-right arrow-icon icon">&#xe607;</i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="plate1">
+                    <span class="plate-font text-uppercase">APRIL 15 2018 - [SERVICE RECIPE]</span>
+                    <h5>GEO Coordinates to Timezone</h5>
+                    <p>
+                        This microservice recipe provides a simple
+                        example of how to lookup a timezone
+                        based on GEO latitude and longitude
+                        coordinates.
+                    </p>
+                    <a class="text-link">
+                        Read the rest
+                        <i class="arrow-right arrow-icon icon">&#xe607;</i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="plate1">
+                    <span class="plate-font text-uppercase">OCTOBER 4 2017 - [SERVICE RECIPE]</span>
+                    <h5>Extract web page content for a given URL.</h5>
+                    <p>
+                        This recipe demonstrates how to develop a
+                        microservice for automatic content
+                        extraction from a web page.
+                    </p>
+                    <a class="text-link">
+                        Read the rest
+                        <i class="arrow-right arrow-icon icon">&#xe607;</i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="plate1">
+                    <span class="plate-font text-uppercase">AAUGUST 5 2017 - [BLOG]</span>
+                    <h5>July Platform Updates: Node v8.2.1, Service Recipes and LDA Topic Modelling</h5>
+                    <p>
+                        We have been busy over the last few weeks
+                        with platform and website improvements
+                        so wanted to share some of the highlights.
+                    </p>
+                    <a class="text-link">
+                        Read the rest
+                        <i class="arrow-right arrow-icon icon">&#xe607;</i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="plate1">
+                    <span class="plate-font text-uppercase">JULY 15 2017 - [SERVICE RECIPE]</span>
+                    <h5>URL Topic Extraction</h5>
+                    <p>
+                        Extract topics for a given URL using Latent
+                        Dirichlet Allocation (LDA).
+                    </p>
+                    <a class="text-link">
+                        Read the rest
+                        <i class="arrow-right arrow-icon icon">&#xe607;</i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="plate1">
+                    <span class="plate-font text-uppercase">JULY 02 2017 - [SERVICE RECIPE]</span>
+                    <h5>Latent Dirichlet Allocation (LDA) Topic Modeling</h5>
+                    <p>
+                        LDA is a machine learning algorithm that
+                        extracts topics and their related keywords
+                        from a collection of documents.
+                    </p>
+                    <a class="text-link">
+                        Read the rest
+                        <i class="arrow-right arrow-icon icon">&#xe607;</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--板塊結束-->
+
+<!--主体结尾-->
+<section class="secEnd">
+    <div class="container">
+        <div class="col-sm-12 text-center">
+            <span class="alt-font">GET STARTED FOR FREE</span>
+            <i class="icon">&#xe618;</i>
+            <a class="text-link">
+                Get Started
+                <i class="icon arrow-right">&#xe607;</i>
+            </a>
+        </div>
+    </div>
+</section>
+<!--主体结束-->
+
+<!--尾部开始-->
+<footer class="foot-l">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-md-offset-4 col-sm-6">
+                <p>
+                    Subscribe to our newsletter to receive news & updates.
+                </p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Your Email Here">
+
+                    <button class="btn-default" type="button"><i class="icon">&#xf0343;</i></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="foot-content">
+                    <span>© Copyright 2018 Eve<sup>n</sup>t</span>
+                    <span>- Made with <i class="xin">💗</i> San Francisco, California.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--尾部结束-->
+<script src="lib/jquery/jquery-1.12.1.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script>
+    $(function(){
+        $("#main").fadeIn(1400);
+    });
+</script>
+</body>
+</html>
